@@ -17,6 +17,10 @@ html {
     padding-top: 2rem;
 }
 
+#main {
+    text-align: justify;
+}
+
 #body {
     font-size: 2rem;
     background-color: rgb(2, 0, 20);
@@ -65,15 +69,12 @@ button {
 
 #label1 {
     padding-left: 2rem;
-    text-align: justify;
 }
 #label2 {
     padding-left: 2rem;
-    text-align: justify;
 }
 #label3 {
     padding-left: 2rem;
-    text-align: justify;
 }
 #nota {
     padding-left: 2rem;
