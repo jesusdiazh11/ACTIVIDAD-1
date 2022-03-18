@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body id="body">
+    <header id="header">
+        <h1 id="h1_title">Actividad 1</h1>
+    </header>
+    <main id="main">
+        <h3 id="h3_subtitle">Algoritmos de practica:</h3>
+        <p  id="p1">
+            1. Escriba un programa en JS que reciba un número entero N e imprima todos los números primos desde 1 hasta N.
+            <br><br>
+            2. Dado un número N, imprima la sumatoria:
+            <br>
+            Sumatoria = 1^N + 2^N + 3^N + 4^N... + N^N
+            <br><br>
+            3. Dado un número N, imprima la serie de Fibonacci (N términos.)
+            <br>
+        </p>
+        <br>
+        <p id="p_des">DESARROLLO</p>
+        <br>
+        <label id="label1" for="">
+            <span>1. Ingrese un número para calcular los primos entre el 1 y el</span>
+            <input type="number" id="numero1" class="input">
+            <button onclick="numPrimos()">Calcular</button>
+        </label>
+        <br><br>
+        <label id="label2" for="">
+            <span>2. Ingrese un número "N":</span>
+            <input type="number" id="numero2" class="input"> 
+            <button onclick="sum()">Calcular</button>
+        </label>
+        <br><br>
+        <label id="label3" for="">
+            <span>3. Ingrese un número "N":</span>
+            <input type="number" id="numero3" class="input">
+            <button onclick="fibonacci()">Calcular</button>
+        </label>
+        <br><br>
+        <p id="nota">NOTA: Por favor acceda a la consola antes de ejecutar cualquier proceso!</p>
+    </main>
+</body>
+</html>

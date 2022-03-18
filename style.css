@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 2rem;
+}
+
+html {
+    font-family: serif;
+    font-size: 62.5%;
+    color: rgb(189, 189, 189);
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+#body {
+    font-size: 2rem;
+    background-color: rgb(2, 0, 20);
+}
+
+#h1_title {
+    color: rgb(192, 38, 0);
+    font-size: 3rem;
+}
+
+#h3_subtitle {
+    color: rgb(192, 38, 0);
+    padding: 2rem;
+}
+
+#p1 {
+    text-align: justify;
+    padding-left: 2rem;
+}
+
+#p_des {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(192, 38, 0);
+    background-color: rgb(189, 189, 189);
+    padding: 1rem;
+    
+}
+
+#nota {
+    color: rgb(192, 38, 0);
+    font-size: 2rem;
+}
+
+.input {
+    width: 10rem;
+    background-color: rgb(2, 0, 20);
+    color: rgb(189, 189, 189);
+}
+
+button {
+    color: rgb(192, 38, 0);
+    background-color: rgb(2, 0, 20);
+    width: 7rem;
+}
+
+#label1 {
+    padding-left: 2rem;
+}
+#label2 {
+    padding-left: 2rem;
+}
+#label3 {
+    padding-left: 2rem;
+}
+#nota {
+    padding-left: 2rem;
+}
